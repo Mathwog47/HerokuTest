@@ -1,0 +1,26 @@
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+
+.postionContentBox{
+    padding-top: 0px;
+}
+.sideBarIcon{
+    font-size: 20px;
+}
+.sideBarIconNonHighlight {
+    font-size: 20px;
+    color: rgb(135, 136, 137);
+    transition: color 0.3s ease;
+}
+.logoContainerBox{
+    border-radius: 0px 0px 700px 0px;
+}
+.authModuleBox{
+    border-radius: 700px 0px 0px 0px;
+}
+.eventCalenderBox{
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+}
