@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { RxDashboard } from "react-icons/rx";
 import { IoPlayOutline } from "react-icons/io5";
 import { BsGrid3X3Gap } from "react-icons/bs";
@@ -9,12 +9,12 @@ import { FaAngleUp } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
 import { Navbar } from "../components/common/Navbar";
 import { Sidebar } from "../components/common/Sidebar";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import { getAuthToken } from "../components/utils/helper";
 
 export const DashboardWrapper = ({ children, getList }) => {
   const [toggle, setToggle] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const sideBarData = [
     {
